@@ -1,0 +1,120 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.navigation {
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-li {
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+
+.wrapper {
+    width: 750px;
+    margin: 20px;
+}
+
+.wrapper .accordion_wrap .accordion_header {
+    width: 100%;
+    height: 50px;
+    background:transparent;
+    padding: 15px;
+    font-weight: 700;
+    border-bottom: 1px solid black;
+    position: relative;
+    cursor: pointer;
+}
+
+.wrapper .accordion_wrap .accordion_header:hover {
+    background-color: black;
+    color: white;
+}
+
+.accordion_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon {
+    font-weight: 300;
+    font-size: large;
+}
+
+.accordion_body {
+    padding: 0 px;
+    max-height: 0;
+    overflow: hidden;
+}
+
+.accordion_wrap.active .accordion_body {
+max-height: 1000px;
+transition: .4s linear;
+}
+
+.skills_container {
+display: flex;
+}
+
+.skills_list {
+    list-style-type: none;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: extra-bold;
+}
+
+p {
+    padding: 20px;
+    font-size: 16px;
+}
+
+.resumeDownload {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 150px;
+  }
+  
+  .resumeButton{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin: 0px;
+    padding: 15px;
+    background-color: transparent;
+    border: solid 1px black;
+    border-radius: 50px;
+    -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none;
+  }
+
+  .sectionBreak {
+    height: 50px;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    justify-content: flex-start;
+}
+.right {
+  justify-content: flex-end;
+}

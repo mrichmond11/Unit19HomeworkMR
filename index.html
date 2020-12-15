@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Marli's Jquery Accordian Page</title>
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+    </head>
+
+<body>
+        <header class="navigation">
+            <div>
+                <img src="images/MR_logo.png">
+            </div>
+
+            <nav class="nav-grid">
+                <ul class="nav-list">
+                    <li class="nav-li">Design</li>
+                    <li class="nav-li">Illustration</li>
+                    <li class="nav-li">About</li>
+                    <li class="nav-li">Resume</li>
+                </ul>
+            </nav>
+        </header>
+
+        <h1>My ongoing journey in design.</h1>
+
+        <!--WRAPPER START-->
+
+        <script></script>
+
+
+
+        <!--Accordion 1-->
+        <div class="wrapper">
+            
+            <div class="accordion_wrap">
+                <div class="accordion_header">
+                    Experience
+                    <div class="icon">+</div>
+                </div>
+                <div class="accordion_body">
+                    <h4>Visual Designer, Visible Ape Project</h4>
+                    <p>Oct 2019 - Present</p>
+                    <p>As the project’s sole visual designer, I built the website, established a design system, and crafted a unique user experience for the Visual Ape Project, a collaborative digital anatomy resource for scientific researchers & educators. My responsibilities included wireframing, user experience design, information architecture, site map development, and digital asset management.</p>
+                    <h4>Freelance Visual Designer & Illustrator</h4>
+                    <p>Aug 2018 - Present</p>
+                    <p>As a part-time freelance designer & illustrator, I’ve had the opportunity to independently design & manage websites, user interfaces, illustrations, pitch decks, storyboards, presentations, & infographics, and e-learning systems for various clients.</p>
+                    <h4>Lab Coordinator, GWU</h4>
+                    <p>Aug 2018- Present</p>
+                    <p>I help support the daily operation of 10 research and teaching facilities within the George Washington University’s Anthropology Department. This role necessitates quick thinking, broad communication skills & a project management mindset. I regularly lead training and presentations for individuals and groups, use design principles to create e-learning materials, and manage 3D digital assets & databases.</p>
+                </div>
+            </div>
+        <!--Accordion 2-->
+        <div class="accordion_wrap">
+            <div class="accordion_header">
+                Skills
+                <div class="icon">+</div>
+            </div>
+            <div class="accordion_body skills_container">
+                <ul class="skills_list">
+                    <li>User Interface Design</li>
+                    <li>User Experience</li>
+                    <li>Information Architecture</li>
+                    <li>Prototyping & Wireframing</li>
+                </ul>
+                <ul class="skills_list">
+                    <li>Visual Design</li>
+                    <li>Illustration</li>
+                    <li>Story Telling</li>
+                    <li>Design Systems</li>
+                </ul>
+                <ul class="skills_list">
+                    <li>Figma</li>
+                    <li>Sketch</li>
+                    <li>Adobe CC</li>
+                    <li>Affinity Designer</li>
+                </ul>
+            </div>
+        </div>
+        <!--Accordion 3-->
+        <div class="accordion_wrap">
+            <div class="accordion_header">
+                Education
+                <div class="icon">+</div>
+            </div>
+            <div class="accordion_body">
+                <p>UX | UI Design Certificate, George Washington University, Anticipated, Jan 2021</p>
+                <p>M.A. in Anthropology, George Washington University, 2016-2018</p>
+                <p>B.A. in Anthropology, East Carolina University, 2011-2015</p>
+            </div>
+        </div>
+    
+
+        </div>
+    <!--WRAPPER END-->
+
+        <div class="resumeDownload">
+            <button class="resumeButton" type="button">Download Resume > </button>
+          </div>
+        </section>
+
+    <footer>
+        <p class="left">Designed by Marli Richmond</p>
+        <p class="right">marlirichmonddesign@gmail.com</p>
+    </footer>
+
+
+    <script type="text/javascript">
+    $(".accordion_header").click(function() {
+        $(".accordion_wrap").removeClass("active");
+        $(this).parent().addClass("active");
+    });
+    </script>
+    </body>
+</html>
